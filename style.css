@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+    background: url("images//banner2.jpg");
+    width: 100%;
+    background-size: cover;
+    background: lightblue;
+}
+
+.top-bar {
+    background: #000;
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.logo {
+    color: #fff;
+    flex: 1;
+    font-size: 40px;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+.menu {
+    flex: 3px;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin-top: 30px;
+    flex-flow: row wrap;
+}
+
+.menu ul li {
+    flex: 1 1 100px;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;    
+    font-size: 20px;
+}
